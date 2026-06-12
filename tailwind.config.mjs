@@ -4,20 +4,20 @@ export default {
   theme: {
     extend: {
       colors: {
-        ink: "#1f2937",
-        cocoa: "#6b5c58",
-        rose: "#d6a4a4",
-        sage: "#8da99b",
-        cream: "#faf7f4",
-        shell: "#f3ebe6",
-        lavender: "#9f7aea"
+        ink: "#173246",
+        cocoa: "#2b5f75",
+        rose: "#20AFC0",
+        sage: "#1E6F8C",
+        cream: "#F7F2EA",
+        shell: "#E8F4F7",
+        lavender: "#1E6F8C"
       },
       fontFamily: {
         sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
         display: ["Playfair Display", "Georgia", "serif"]
       },
       boxShadow: {
-        soft: "0 18px 60px rgba(70, 56, 50, 0.12)"
+        soft: "0 18px 60px rgba(23, 50, 70, 0.12)"
       }
     }
   },

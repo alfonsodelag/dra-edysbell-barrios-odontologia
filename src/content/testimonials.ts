@@ -1,20 +1,20 @@
 export const testimonials = [
   {
-    name: "María G.",
-    treatment: "Tratamiento de acné",
+    name: "Carla M.",
+    treatment: "Diseño de sonrisa",
     quote:
-      "Me explicaron cada paso con calma y el plan fue muy fácil de seguir. La piel mejoró sin sentirme perdida."
+      "Me explicó cada paso con mucha claridad y el resultado fue exactamente lo que buscaba: una sonrisa natural y armónica."
   },
   {
-    name: "Andrea R.",
-    treatment: "Rejuvenecimiento facial",
+    name: "José R.",
+    treatment: "Blanqueamiento dental",
     quote:
-      "Buscaba un resultado natural y eso fue exactamente lo que encontré: atención médica, criterio y mucho detalle."
+      "Desde la primera sesión noté la diferencia. Me sentí cómodo durante todo el procedimiento y el resultado fue increíble."
   },
   {
-    name: "Laura P.",
-    treatment: "Manchas",
+    name: "Valeria T.",
+    treatment: "Limpieza dental",
     quote:
-      "La consulta fue clara desde el inicio. Me gustó que ajustaran el tratamiento a mi tipo de piel y rutina."
+      "Llevaba tiempo posponiendo la visita, pero la atención fue tan amable y profesional que ya agendé mi próxima cita sin pensarlo."
   }
 ];

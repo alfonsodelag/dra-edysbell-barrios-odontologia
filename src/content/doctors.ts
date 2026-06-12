@@ -1,20 +1,8 @@
 export const doctors = [
   {
-    name: "Dra. Elena Vargas",
-    role: "Dermatóloga clínica y estética",
-    bio: "Especialista en piel sensible, acné adulto, manchas y tratamientos de rejuvenecimiento con enfoque natural.",
+    name: "Dra. Edysbell Barrios",
+    role: "Odontóloga General y Estética",
+    bio: "Especialista en estética dental, salud oral y atención personalizada. Comprometida con brindar una experiencia dental cómoda, segura y orientada al bienestar integral de cada paciente.",
     image: "/images/team/team-1.jpg"
-  },
-  {
-    name: "Dra. Camila Ríos",
-    role: "Medicina estética dermatológica",
-    bio: "Enfocada en armonización facial, toxina botulínica, bioestimulación y protocolos preventivos.",
-    image: "/images/team/team-2.jpg"
-  },
-  {
-    name: "Dra. Natalia Pérez",
-    role: "Dermatología láser",
-    bio: "Experiencia en tecnología dermatológica para manchas, rojeces, cicatrices y textura de la piel.",
-    image: "/images/team/team-3.jpg"
   }
 ];

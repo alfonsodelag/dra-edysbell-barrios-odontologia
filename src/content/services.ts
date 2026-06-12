@@ -7,42 +7,42 @@ export type Service = {
 
 export const services: Service[] = [
   {
-    title: "Dermatología clínica",
+    title: "Diseño de sonrisa",
     description:
-      "Evaluación médica de piel, cabello y uñas con planes claros para diagnóstico, tratamiento y seguimiento.",
+      "Evaluación estética y planificación personalizada para lograr una sonrisa armónica, natural y proporcional a tu rostro.",
     image: "/images/services/sd-1.jpg",
     featured: true
   },
   {
-    title: "Tratamiento para acné",
+    title: "Limpieza dental",
     description:
-      "Protocolos personalizados para brotes activos, marcas, sensibilidad e inflamación persistente.",
+      "Profilaxis profesional para remover sarro, manchas y bacterias. Base fundamental para una boca sana y una sonrisa brillante.",
     image: "/images/services/sd-2.jpg",
     featured: true
   },
   {
-    title: "Manchas y melasma",
+    title: "Blanqueamiento dental",
     description:
-      "Manejo integral de hiperpigmentación con peelings, tecnología médica y cuidado domiciliario.",
+      "Tratamiento seguro y controlado para aclarar el tono de tus dientes con resultados visibles desde la primera sesión.",
     image: "/images/services/sd-3.jpg",
     featured: true
   },
   {
-    title: "Rejuvenecimiento facial",
+    title: "Resinas estéticas",
     description:
-      "Tratamientos para textura, luminosidad y firmeza, diseñados para resultados naturales.",
+      "Restauraciones directas con materiales de alta estética para recuperar la forma, el color y la función de tus dientes.",
     image: "/images/services/services-details.jpg"
   },
   {
-    title: "Botox y rellenos faciales",
+    title: "Carillas dentales",
     description:
-      "Procedimientos estéticos médicos para suavizar líneas y armonizar rasgos con criterio clínico.",
+      "Láminas de porcelana o resina que transforman la apariencia de tus dientes con resultados naturales y duraderos.",
     image: "/images/consultation-video.jpg"
   },
   {
-    title: "Láser dermatológico",
+    title: "Evaluación odontológica",
     description:
-      "Tecnología para manchas, rojeces, cicatrices, rejuvenecimiento y otras necesidades de la piel.",
+      "Revisión integral de tu salud oral para identificar necesidades, prevenir problemas y diseñar un plan de atención personalizado.",
     image: "/images/services-bg.jpg"
   }
 ];

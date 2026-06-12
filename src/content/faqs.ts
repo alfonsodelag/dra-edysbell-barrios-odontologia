@@ -1,22 +1,22 @@
 export const faqs = [
   {
-    question: "¿Necesito una evaluación antes de iniciar un tratamiento?",
+    question: "¿El blanqueamiento dental duele o daña el esmalte?",
     answer:
-      "Sí. La evaluación permite revisar tu piel, antecedentes y objetivos para indicar un plan seguro y realista."
+      "Cuando se realiza con supervisión profesional, el blanqueamiento es seguro. La sensibilidad puede aparecer de forma temporal, pero se maneja con el protocolo adecuado para cada paciente."
   },
   {
-    question: "¿Los tratamientos estéticos requieren incapacidad?",
+    question: "¿Con qué frecuencia debo hacerme una limpieza dental?",
     answer:
-      "Depende del procedimiento. Muchos tratamientos permiten volver a la rutina el mismo día; otros requieren cuidados específicos."
+      "Lo recomendable es cada seis meses. La profilaxis profesional elimina el sarro que el cepillado diario no puede remover y previene enfermedades de las encías."
   },
   {
-    question: "¿Puedo agendar por WhatsApp?",
+    question: "¿Puedo agendar mi cita por WhatsApp?",
     answer:
-      "Sí. WhatsApp es el canal recomendado para confirmar disponibilidad, horarios y preparación previa a tu consulta."
+      "Sí. WhatsApp es el canal más rápido para confirmar disponibilidad, resolver dudas y coordinar tu primera consulta o evaluación."
   },
   {
-    question: "¿Este template permite cambiar ciudad, marca y servicios?",
+    question: "¿Qué incluye el diseño de sonrisa?",
     answer:
-      "Sí. La información editable está centralizada en archivos locales para adaptar el sitio a cada clínica."
+      "Incluye una evaluación estética completa, análisis de proporción dental y facial, y un plan de tratamiento personalizado para lograr el resultado que buscas de forma natural y segura."
   }
 ];

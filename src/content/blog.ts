@@ -1,26 +1,26 @@
 export const posts = [
   {
-    title: "Cómo preparar tu piel antes de un tratamiento facial",
+    title: "Rutina de higiene oral: lo que realmente importa",
     excerpt:
-      "Una guía breve para llegar a consulta con una rutina simple, segura y útil para tu dermatóloga.",
-    date: "2026-01-12",
+      "Cepillado, hilo dental y enjuague. Cómo hacerlo bien para proteger tu sonrisa todos los días.",
+    date: "2026-01-15",
     image: "/images/blog/blog-1.jpg",
-    slug: "preparar-piel-tratamiento-facial"
+    slug: "rutina-higiene-oral"
   },
   {
-    title: "Acné adulto: cuándo consultar y qué evitar",
+    title: "Blanqueamiento dental: qué esperar antes, durante y después",
     excerpt:
-      "Señales de alerta, errores comunes y razones para elegir un plan médico personalizado.",
-    date: "2026-01-28",
+      "Una guía clara para entender el proceso, los resultados reales y cómo mantenerlos por más tiempo.",
+    date: "2026-02-03",
     image: "/images/blog/blog-2.jpg",
-    slug: "acne-adulto-cuando-consultar"
+    slug: "blanqueamiento-dental-guia-completa"
   },
   {
-    title: "Manchas en la piel: constancia antes que soluciones rápidas",
+    title: "Sensibilidad dental: cuándo es normal y cuándo consultar",
     excerpt:
-      "Por qué el melasma y la hiperpigmentación necesitan diagnóstico, fotoprotección y seguimiento.",
-    date: "2026-02-08",
+      "No toda sensibilidad es igual. Aprende a identificar las señales que indican que es momento de buscar atención profesional.",
+    date: "2026-02-20",
     image: "/images/blog/blog-3.jpg",
-    slug: "manchas-piel-constancia"
+    slug: "sensibilidad-dental-cuando-consultar"
   }
 ];
