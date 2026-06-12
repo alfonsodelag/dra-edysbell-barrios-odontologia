@@ -1,20 +1,20 @@
 export const siteConfig = {
   businessName: "Dra. Edysbell Barrios Odontóloga",
-  tagline: "Odontología estética y salud oral con atención personalizada",
+  tagline: "Busquemos la mejor versión de tu sonrisa",
   description:
-    "Atención odontológica personalizada en Panamá. Estética dental, limpieza, blanqueamiento, restauraciones y cuidado integral para una sonrisa saludable y armónica.",
-  url: "https://dra-edysbell-barrios.vercel.app",
+    "Odontología estética y salud oral en Panamá. Diseño de sonrisa, blanqueamiento dental, limpiezas, restauraciones y atención personalizada con la Dra. Edysbell Barrios.",
+  url: "https://demo-dra-edysbell-barrios-odontologa-alfonsodelag.vercel.app",
   phone: "[TELÉFONO PENDIENTE]",
   whatsapp: "50700000000",
   email: "[CORREO PENDIENTE]",
-  address: "[DIRECCIÓN PENDIENTE]",
+  address: "Panamá",
   hours: {
-    weekdays: "Lunes a viernes: 8:00 a.m. - 6:00 p.m.",
-    saturday: "Sábados: 9:00 a.m. - 1:00 p.m.",
-    sunday: "Domingos: cerrado"
+    weekdays: "[HORARIO PENDIENTE]",
+    saturday: "",
+    sunday: ""
   },
   social: {
-    instagram: "[INSTAGRAM PENDIENTE]",
+    instagram: "https://instagram.com/dra_edysbellodonto",
     facebook: "",
     tiktok: "",
     linkedin: ""
@@ -22,15 +22,18 @@ export const siteConfig = {
   seo: {
     title: "Dra. Edysbell Barrios Odontóloga | Estética Dental y Salud Oral en Panamá",
     description:
-      "Atención odontológica personalizada en Panamá. Estética dental, limpieza, blanqueamiento, restauraciones y cuidado integral para una sonrisa saludable y armónica.",
+      "Odontología estética y salud oral en Panamá. Diseño de sonrisa, blanqueamiento dental, limpiezas, restauraciones y atención personalizada con la Dra. Edysbell Barrios.",
     keywords: [
       "odontóloga en Panamá",
-      "clínica dental en Panamá",
-      "estética dental en Panamá",
-      "blanqueamiento dental en Panamá",
+      "odontología estética en Panamá",
       "diseño de sonrisa en Panamá",
+      "blanqueamiento dental en Panamá",
       "limpieza dental en Panamá",
-      "Dra. Edysbell Barrios Odontóloga"
+      "carillas dentales en Panamá",
+      "armonización orofacial Panamá",
+      "salud oral Panamá",
+      "Dra. Edysbell Barrios",
+      "clínica dental integral Panamá"
     ]
   },
   colors: {

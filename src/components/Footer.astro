@@ -15,21 +15,33 @@ import { siteConfig, whatsappUrl } from "@/config/site";
         <li>{siteConfig.phone}</li>
         <li>{siteConfig.email}</li>
         <li>{siteConfig.address}</li>
+        {siteConfig.social.instagram && (
+          <li>
+            <a
+              href={siteConfig.social.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:text-white transition"
+            >
+              Instagram: @dra_edysbellodonto
+            </a>
+          </li>
+        )}
       </ul>
     </div>
     <div>
       <h2 class="text-sm font-semibold uppercase tracking-[0.16em] text-white/60">Horario</h2>
       <ul class="mt-4 space-y-3 text-sm text-white/80">
         <li>{siteConfig.hours.weekdays}</li>
-        <li>{siteConfig.hours.saturday}</li>
-        <li>{siteConfig.hours.sunday}</li>
+        {siteConfig.hours.saturday && <li>{siteConfig.hours.saturday}</li>}
+        {siteConfig.hours.sunday && <li>{siteConfig.hours.sunday}</li>}
       </ul>
     </div>
   </div>
   <div class="border-t border-white/10 py-5">
     <div class="container-page flex flex-col gap-2 text-xs text-white/55 sm:flex-row sm:items-center sm:justify-between">
       <p>© {new Date().getFullYear()} {siteConfig.businessName}. Todos los derechos reservados.</p>
-      <p>Template Astro + Tailwind listo para Vercel.</p>
+      <a href={siteConfig.social.instagram} target="_blank" rel="noopener noreferrer" class="hover:text-white/80 transition">@dra_edysbellodonto</a>
     </div>
   </div>
 </footer>
