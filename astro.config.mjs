@@ -10,4 +10,18 @@ export default defineConfig({
     }),
     react(),
   ],
+  vite: {
+    optimizeDeps: {
+      include: [
+        "sanity",
+        "sanity/structure",
+        "@sanity/ui",
+        "@sanity/icons",
+        "styled-components",
+      ],
+    },
+    define: {
+      "process.env.SANITY_STUDIO_BASEPATH": JSON.stringify("/studio"),
+    },
+  },
 });

@@ -7,6 +7,7 @@ export default defineConfig({
   title: "Dra. Edysbell Barrios — CMS",
   projectId: "jdls3x4j",
   dataset: "production",
+  basePath: "/studio",
   plugins: [structureTool()],
   schema: {
     types: schemaTypes,
