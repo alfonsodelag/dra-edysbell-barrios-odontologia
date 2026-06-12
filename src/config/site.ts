@@ -3,7 +3,7 @@ export const siteConfig = {
   tagline: "Busquemos la mejor versión de tu sonrisa",
   description:
     "Odontología estética y salud oral en Panamá. Diseño de sonrisa, blanqueamiento dental, limpiezas, restauraciones y atención personalizada con la Dra. Edysbell Barrios.",
-  url: "https://demo-dra-edysbell-barrios-odontologa-alfonsodelag.vercel.app",
+  url: "https://demo-dra-edysbell-barrios-odontolog.vercel.app",
   phone: "[TELÉFONO PENDIENTE]",
   whatsapp: "50700000000",
   email: "[CORREO PENDIENTE]",
