@@ -4,14 +4,14 @@ export const siteConfig = {
   description:
     "Odontología estética y salud oral en Panamá. Diseño de sonrisa, blanqueamiento dental, limpiezas, restauraciones y atención personalizada con la Dra. Edysbell Barrios.",
   url: "https://demo-dra-edysbell-barrios-odontolog.vercel.app",
-  phone: "[TELÉFONO PENDIENTE]",
-  whatsapp: "50700000000",
-  email: "[CORREO PENDIENTE]",
+  phone: "6927-0527",
+  whatsapp: "50769270527",
+  email: "draebarrios@gmail.com",
   address: "Panamá",
   hours: {
-    weekdays: "[HORARIO PENDIENTE]",
-    saturday: "",
-    sunday: ""
+    weekdays: "Lun – Vie: 8:00 AM – 6:00 PM",
+    saturday: "Sáb: 9:00 AM – 2:00 PM",
+    sunday: "Dom: Cerrado"
   },
   social: {
     instagram: "https://instagram.com/dra_edysbellodonto",

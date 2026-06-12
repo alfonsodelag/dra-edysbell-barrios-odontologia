@@ -1,0 +1,35 @@
+---
+import SanityStudio from "@/components/SanityStudio";
+
+// Pre-render only the base /studio path.
+// The Sanity Studio handles all internal navigation client-side (React Router).
+export function getStaticPaths() {
+  return [{ params: { index: undefined } }];
+}
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio — Dra. Edysbell Barrios CMS</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+      }
+      #studio-root {
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="studio-root">
+      <SanityStudio client:only="react" />
+    </div>
+  </body>
+</html>

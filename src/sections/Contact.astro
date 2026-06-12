@@ -15,11 +15,22 @@ const web3formsKey = import.meta.env.PUBLIC_WEB3FORMS_ACCESS_KEY;
         intro="Completa el formulario y te contactamos para confirmar tu cita. También puedes escribirnos por WhatsApp para una respuesta más rápida."
       />
       <div class="mt-8 space-y-3 text-sm leading-6 text-cocoa">
-        <p><strong class="text-ink">Teléfono:</strong> {siteConfig.phone}</p>
-        <p><strong class="text-ink">Dirección:</strong> {siteConfig.address}</p>
-        <p><strong class="text-ink">Horario:</strong> {siteConfig.hours.weekdays}</p>
+        <p>
+          <strong class="text-ink">Teléfono / WhatsApp:</strong>{" "}
+          <a class="hover:text-sage transition-colors" href={whatsappUrl}>{siteConfig.phone}</a>
+        </p>
+        <p><strong class="text-ink">Email:</strong> {siteConfig.email}</p>
+        <p><strong class="text-ink">Ubicación:</strong> {siteConfig.address}</p>
+        <div>
+          <strong class="text-ink">Horario:</strong>
+          <ul class="mt-1 space-y-0.5 pl-0">
+            <li>{siteConfig.hours.weekdays}</li>
+            <li>{siteConfig.hours.saturday}</li>
+            <li class="text-ink/50">{siteConfig.hours.sunday}</li>
+          </ul>
+        </div>
       </div>
-      <a class="btn-primary mt-8" href={whatsappUrl}>Escribir por WhatsApp</a>
+      <a class="btn-primary mt-8" href={whatsappUrl} target="_blank" rel="noopener">Escribir por WhatsApp</a>
     </div>
 
     <form class="card grid gap-4 p-6" action="https://api.web3forms.com/submit" method="POST">

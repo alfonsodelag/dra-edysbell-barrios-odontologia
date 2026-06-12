@@ -9,3 +9,5 @@ dist/
 .env.preview
 *.log
 .DS_Store
+
+.vercel

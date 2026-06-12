@@ -1,0 +1,120 @@
+---
+import { whatsappUrl } from "@/config/site";
+
+const bacServices = ["Diseño de Sonrisa", "Ortodoncia", "Ortodoncia + Diseño de Sonrisa Natural", "Carillas de Porcelana"];
+---
+
+<section class="section-pad" style="background-color: #f0e8df;">
+  <div class="container-page">
+    <div class="overflow-hidden rounded-3xl bg-white shadow-soft lg:grid lg:grid-cols-2">
+
+      <!-- Imagen izquierda -->
+      <div class="relative min-h-64 lg:min-h-auto">
+        <img
+          class="absolute inset-0 h-full w-full object-cover"
+          src="/images/bac-promo.jpg"
+          onerror="this.onerror=null;this.src='/images/services/sd-1.jpg'"
+          alt="Sonrisa saludable — Promoción BAC tarjetahabientes"
+          loading="lazy"
+        />
+        <!-- Overlay con texto sobre la imagen -->
+        <div class="absolute inset-0 flex items-end bg-gradient-to-t from-ink/60 via-transparent to-transparent p-8">
+          <p class="font-display text-lg font-semibold leading-snug text-white">
+            Adquirir tu diseño de sonrisa o alineadores nunca fue tan cómodo
+          </p>
+        </div>
+      </div>
+
+      <!-- Contenido derecho -->
+      <div class="flex flex-col justify-center p-8 lg:p-12">
+        <!-- Eyebrow -->
+        <span class="text-xs font-semibold uppercase tracking-[0.18em] text-sage">
+          La sonrisa que sueñas
+        </span>
+
+        <!-- Headline -->
+        <h2 class="mt-2 font-display text-3xl font-semibold leading-tight text-ink sm:text-4xl">
+          Cada vez más<br class="hidden sm:block" />
+          <span class="italic">a tu alcance</span>
+        </h2>
+
+        <!-- Badge BAC -->
+        <div class="mt-4 inline-flex w-fit items-center gap-2 rounded-full bg-ink px-4 py-2">
+          <svg class="h-4 w-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/>
+          </svg>
+          <span class="text-xs font-semibold uppercase tracking-wide text-white">
+            Una increíble noticia para tarjetahabientes BAC
+          </span>
+        </div>
+
+        <!-- Divider -->
+        <div class="my-6 border-t border-ink/10"></div>
+
+        <!-- Forma de pago -->
+        <div class="space-y-5">
+          <div>
+            <p class="text-sm font-bold text-ink">Forma de pago</p>
+            <p class="mt-1 text-sm leading-6 text-cocoa">
+              Puedes realizar tu compra en
+              <strong class="text-ink">3 cuotas con tasa 0</strong>, lo que significa que el monto total
+              se divide en 3 pagos mensuales <strong class="text-ink">sin intereses ni recargos adicionales</strong>.
+            </p>
+          </div>
+
+          <div>
+            <p class="text-sm font-bold text-ink">Cómo funciona</p>
+            <p class="mt-1 text-sm leading-6 text-cocoa">
+              El cobro se realiza a través del sistema de tarjetas de crédito BAC.
+            </p>
+            <ul class="mt-3 space-y-2">
+              <li class="flex items-center gap-2 text-sm text-cocoa">
+                <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-sage/15">
+                  <svg class="h-3 w-3 text-sage" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                  </svg>
+                </span>
+                El banco convierte tu pago automáticamente en 3 cuotas iguales
+              </li>
+              <li class="flex items-center gap-2 text-sm text-cocoa">
+                <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-sage/15">
+                  <svg class="h-3 w-3 text-sage" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                  </svg>
+                </span>
+                No pagas intereses
+              </li>
+              <li class="flex items-center gap-2 text-sm text-cocoa">
+                <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-sage/15">
+                  <svg class="h-3 w-3 text-sage" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                  </svg>
+                </span>
+                No hay cargos ocultos ni recargos
+              </li>
+            </ul>
+          </div>
+
+          <!-- Tratamientos elegibles -->
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-wide text-sage">Aplica para:</p>
+            <div class="mt-2 flex flex-wrap gap-2">
+              {bacServices.map((s) => (
+                <span class="rounded-full border border-ink/15 px-3 py-1 text-xs text-ink">
+                  {s}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="mt-8">
+          <a class="btn-primary" href={whatsappUrl} target="_blank" rel="noopener">
+            Consultar por WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

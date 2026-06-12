@@ -4,8 +4,10 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
   },
-  "include": ["src", "astro.config.mjs"],
+  "include": ["src", "astro.config.mjs", "sanity.config.ts", "sanity"],
   "exclude": ["css", "fonts", "img", "js", "sass", "Source", "dist", "node_modules"]
 }
